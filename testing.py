@@ -1,0 +1,1 @@
+print("I am starting to learn Python full focused")
