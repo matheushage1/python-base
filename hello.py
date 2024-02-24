@@ -14,6 +14,15 @@ __version__ = "0.0.1"
 __author__ = "Matheus"
 __license__ = "unlicense"
 
-# Este programa imprime na tela "hello-world".
-print("Hello, World!")
+# Script
+import os 
 
+current_language = os.getenv("LANG", "us_EN")[:5]
+msg = "Hello, World!"
+
+if (current_language == "pt_BR"):
+    msg = "Olá, mundo!"
+elif (current_language == "it_IT"):
+    msg = "Ciao, mundo!"
+
+print(msg)
