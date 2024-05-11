@@ -23,6 +23,10 @@ msg = "Hello, World!"
 if (current_language == "pt_BR"):
     msg = "Olá, mundo!"
 elif (current_language == "it_IT"):
-    msg = "Ciao, mundo!"
+    msg = "Ciao, mondo!"
+elif (current_language == "es_ES"):
+    msg = "Hola, mundo!"
+elif (current_language == "fr_FR"):
+    msg = "Bonjour tout le monde!"
 
 print(msg)
