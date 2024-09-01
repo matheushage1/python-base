@@ -17,7 +17,7 @@ __license__ = "unlicense"
 # Script
 import os 
 
-current_language = os.getenv("LANG", "us_EN")[:5]
+current_language = os.getenv("LANG", "pt_BR")[:5]
 msg = "Hello, World!"
 
 if (current_language == "pt_BR"):
